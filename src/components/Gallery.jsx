@@ -1,6 +1,7 @@
 import React from 'react';
 import './Gallery.css';
 import galleryVibe from '../assets/gallery_vibe_1777805127715.png';
+import premiumFood from '../assets/hero_background_1777805034580.png';
 
 const Gallery = () => {
   return (
@@ -26,7 +27,7 @@ const Gallery = () => {
             </div>
           </div>
           <div className="gallery-item">
-            <img src={galleryVibe} alt="Food shots" />
+            <img src={premiumFood} alt="Food shots" />
             <div className="gallery-overlay">
               <span>Premium Food</span>
             </div>
