@@ -2,6 +2,7 @@ import React from 'react';
 import './Gallery.css';
 import galleryVibe from '../assets/gallery_vibe_1777805127715.png';
 import premiumFood from '../assets/hero_background_1777805034580.png';
+import openseating from '../assets/Gemini_Generated_Image_bcjpu7bcjpu7bcjp.png';
 
 const Gallery = () => {
   return (
@@ -15,9 +16,9 @@ const Gallery = () => {
         <div className="gallery-grid">
           {/* We'll duplicate the gallery vibe image or just use it as a large feature */}
           <div className="gallery-item large">
-            <img src={galleryVibe} alt="Terrace seating at night" />
+            <img src={openseating} alt="Terrace seating at night" />
             <div className="gallery-overlay">
-              <span>Open Seating Terrace</span>
+              <span>Open Seating </span>
             </div>
           </div>
           <div className="gallery-item">
