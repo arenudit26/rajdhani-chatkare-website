@@ -18,7 +18,7 @@ const Gallery = () => {
           <div className="gallery-item large">
             <img src={openseating} alt="Terrace seating at night" />
             <div className="gallery-overlay">
-              <span>Open Seating </span>
+              <span>Open Seating</span>
             </div>
           </div>
           <div className="gallery-item">
